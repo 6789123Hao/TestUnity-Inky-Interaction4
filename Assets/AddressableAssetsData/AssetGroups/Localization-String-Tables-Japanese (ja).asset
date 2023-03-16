@@ -17,12 +17,6 @@ MonoBehaviour:
     m_SerializedData: []
   m_GUID: f30604099a7346d45b92f445a3b4836e
   m_SerializeEntries:
-  - m_GUID: d58793d552bdb27498f541935b25356f
-    m_Address: String Menu Setting Table_ja
-    m_ReadOnly: 1
-    m_SerializedLabels:
-    - Locale-ja
-    - Preload
   - m_GUID: 6720ed8083da88643a18053d8f2e809d
     m_Address: New Table_ja
     m_ReadOnly: 1
