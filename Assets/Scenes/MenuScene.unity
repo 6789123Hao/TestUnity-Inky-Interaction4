@@ -588,7 +588,6 @@ GameObject:
   - component: {fileID: 202348941}
   - component: {fileID: 202348940}
   - component: {fileID: 202348942}
-  - component: {fileID: 202348943}
   m_Layer: 5
   m_Name: PanelExit
   m_TagString: Untagged
@@ -668,19 +667,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 34907d166c308dc4ab1074efdb957e79, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  timeLeft: 2
---- !u!114 &202348943
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 202348938}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 42abc06b9714ed64a9ba0fdaabe3b5a7, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
+  timeGap: 0.4
+  currrentTime: 0
 --- !u!1 &268108154
 GameObject:
   m_ObjectHideFlags: 0
@@ -765,10 +753,10 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 730204435}
-        m_TargetAssemblyTypeName: LocalSelector, Assembly-CSharp
-        m_MethodName: 
-        m_Mode: 3
+      - m_Target: {fileID: 730204439}
+        m_TargetAssemblyTypeName: MenuScreen, Assembly-CSharp
+        m_MethodName: PlayGame
+        m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
           m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
@@ -909,7 +897,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 34907d166c308dc4ab1074efdb957e79, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  timeLeft: 0
+  timeGap: 0.4
+  currrentTime: 0
 --- !u!1 &453175668
 GameObject:
   m_ObjectHideFlags: 0
@@ -1421,7 +1410,7 @@ MonoBehaviour:
     m_TableReference:
       m_TableCollectionName: GUID:8159bdab42c5b8843ab1f6fe1b759438
     m_TableEntryReference:
-      m_KeyId: 443658836168704
+      m_KeyId: 443733763215360
       m_Key: 
     m_FallbackState: 0
     m_WaitForCompletion: 0
@@ -1865,6 +1854,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 3be693c9b82bf3947a360dde8d564cf3, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  timeGap: 0.5
+  currrentTime: 0
   quitBox: {fileID: 202348942}
   creditBox: {fileID: 0}
   settingBox: {fileID: 324488312}
@@ -4835,7 +4826,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 34907d166c308dc4ab1074efdb957e79, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  timeLeft: 0
+  timeGap: 0.4
+  currrentTime: 0
 --- !u!1 &1987155490
 GameObject:
   m_ObjectHideFlags: 0
