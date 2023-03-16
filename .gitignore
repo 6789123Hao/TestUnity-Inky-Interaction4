@@ -25,6 +25,9 @@
 
 /[Aa]ssets/Ink*
 
+
+/[Aa]ssets/Fonts*
+
 # Visual Studio cache directory
 .vs/
 
